@@ -1,9 +1,42 @@
-# React + Vite
+# Project Title: Horizontal Scroll Cards with File Upload and Attachment Counter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This project is a React.js application that provides a horizontally scrollable card interface with file upload functionality. Files can be uploaded via a modal, and the total number of uploaded attachments is dynamically displayed.
 
-Currently, two official plugins are available:
+## Features
+- **Horizontal Scrollable Cards**: Provides a single-page layout with horizontally scrollable cards.
+- **File Attachment Modal**: Modal opens on clicking "attachments," enabling multiple file uploads.
+- **File List with Extensions**: Uploaded files are displayed with their original name and extension.
+- **File Storage API**: Built with Node.js and MongoDB to store file metadata.
+- **Attachment Counter**: Shows the total number of uploaded attachments in each card.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-"# card_scroll_server" 
+## Project Structure
+
+### Frontend
+- **React Components**:
+  - `HorizontalScrollContainer`: Main container for the horizontally scrollable cards.
+  - `Card`: Represents each individual card.
+  - `Modal`: Handles file uploads, previews, and displays uploaded files in a list.
+  - `FileList`: Lists uploaded files with name and extension.
+- **File Upload Flow**: The user selects files via the modal, and files are displayed with previews before uploading to the backend.
+
+### Backend
+- **Node.js and MongoDB**:
+  - `MongoClient` is used to connect to MongoDB, utilizing GridFS for file storage.
+  - **API Endpoints**:
+    - `GET /api/files`: Fetches metadata of all uploaded files.
+    - `POST /api/upload`: Allows multiple file uploads and saves file metadata to MongoDB.
+
+## Getting Started
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
+- MongoDB database access.
+- (Optional) [Vercel CLI](https://vercel.com/docs/cli) for deployment.
+
+### Installation
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/yourprojectname.git
+   cd yourprojectname
