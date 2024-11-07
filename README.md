@@ -29,11 +29,8 @@ This project is a React.js application that provides a horizontally scrollable c
 
 ## Getting Started
 
-### Prerequisites
-- [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
-- MongoDB database access.
-- (Optional) [Vercel CLI](https://vercel.com/docs/cli) for deployment.
-
+## [Live-Site-Link]([https://66c2dc86d9e6ac5b4d73908d--gleaming-sunflower-69f36b.netlify.app/](https://jade-tanuki-6bb9d7.netlify.app/))
+## [server-side-Link]([[https://66c2dc86d9e6ac5b4d73908d--gleaming-sunflower-69f36b.netlify.app/](https://github.com/sajjadhussains/card_scroll_server)](https://github.com/sajjadhussains/card_scroll_server))
 ### Installation
 
 1. **Clone the Repository**
