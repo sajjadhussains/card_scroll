@@ -44,6 +44,7 @@ const Modal = ({
       if (response.ok) {
         alert("Files uploaded successfully!");
         setTrue(!isTrue);
+        setPreviewFiles([]);
       } else {
         alert("Failed to upload files.");
       }
