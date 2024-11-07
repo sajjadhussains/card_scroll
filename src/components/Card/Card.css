@@ -1,0 +1,47 @@
+.card {
+  background-color: white;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+.card-title {
+  font-size: 14px;
+  font-weight: 500;
+}
+.common-flex {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.card-top,
+.card-middle {
+  justify-content: space-between;
+}
+.card-middle,
+.card-bottom {
+  margin-top: 15px;
+}
+.card-profile-img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.complete-task {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4faff;
+  padding: 5px 15px;
+}
+.text-gray {
+  font-size: 13px;
+  color: gray;
+}
+.card-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-bottom span {
+  font-size: 12px;
+}
